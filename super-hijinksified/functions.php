@@ -4,7 +4,7 @@
 
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
-		'name' => 'Pages',
+		'name' => 'Боковая колонка',
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',
 		'after_widget' => '</li>',
 		'before_title' => '<h2>',
@@ -22,7 +22,7 @@ function wpe_excerptlength_index($length) {
     return 160;
 }
 function wpe_excerptmore($more) {
-    return '...<a href="'. get_permalink().'">Read More ></a>';
+    return '...<a href="'. get_permalink().'">Читать далее ></a>';
 }
 
 function wpe_excerpt($length_callback='', $more_callback='') {

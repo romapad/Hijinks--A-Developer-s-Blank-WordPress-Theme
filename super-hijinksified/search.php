@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<article>
-		<h1>Search Results</h1>
+		<h1>Результаты поиска</h1>
 		
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<h1><a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title();?></a></h1>
@@ -10,7 +10,7 @@
 	
 		<?php else : ?>
 	
-			<p>No posts found. Try a different search?</p>
+			<p>Ничего не найдено. Попробовать еще раз?</p>
 			<?php get_search_form(); ?>
 	
 		<?php endif; ?>
