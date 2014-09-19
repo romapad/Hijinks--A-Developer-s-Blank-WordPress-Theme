@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 	<article>
-		<h1>404 Not Found</h1>
-		<p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+		<h1>404 оишбка</h1>
+		<p>К сожалению, запрошенная вами страница не найдена. Попробуйте вернуться на главную или воспользуйтесь поиском:</p>
 		<?php get_search_form(); ?>
 	</article>
 
